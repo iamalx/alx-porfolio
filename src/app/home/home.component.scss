@@ -1,0 +1,9 @@
+app-home{
+    .flex-items{
+        display: flex;
+        border: 2px solid red;
+        @media screen and(min-width: 720px){
+            width: 100px;
+        }
+    }
+}
