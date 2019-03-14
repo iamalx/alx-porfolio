@@ -41,16 +41,26 @@
     }
     .main-wrapper {
         width: 80%;
-        margin: 20px auto;
+        margin: 55px auto 30px auto;
+    }
+    .main-font{
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 50px;
+        margin: 20px 0px;
     }
     .about{
-       
+        margin-bottom: 50px;
+    }
+    .me{
+        font-size: 1.4rem;
     }
     .projects {
         // width: 80%;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 120px;
         border-radius: 10px;
         // margin: auto;
+        position: relative;
+        padding: 20px 30px;
     }
     .sect{
         position: relative;
@@ -60,7 +70,7 @@
         // width: 70%;
         // height: 300px;
         width: 30%;
-        margin: auto;
+        margin: 40px auto 20px auto;
     }
     .img-wrapper2{
         width: 80%;
@@ -72,6 +82,20 @@
     }
     .h5-section{
         display: flex;
+    }
+    .resume{
+        margin: 10px 0px 18px 0px;
+        border-radius: 10px;
+    }
+    #experience-hd{
+        text-align: center;
+        margin: 20px auto 85px auto;
+        position: relative;
+        font-size: 1rem;
+        // margin-bottom: 85px;
+    }
+    .sect{
+        margin-top: 25px;
     }
 
 
