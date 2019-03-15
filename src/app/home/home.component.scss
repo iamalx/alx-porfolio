@@ -56,9 +56,9 @@
         font-size: 1.4rem;
         text-shadow: rgba(0, 0, 0, 0.15) 0px 12px 30px;
     }
-    h1, h4{
-        text-shadow: rgba(0, 0, 0, 0.15) 0px 12px 30px;
-    }
+    // h1, h4{
+    //     text-shadow: rgba(0, 0, 0, 0.15) 0px 12px 30px;
+    // }
     .projects {
         // width: 80%;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 120px;
@@ -70,8 +70,20 @@
     .sect{
         position: relative;
         width: auto;
-        
     }
+    .title-hd{
+        text-shadow: rgba(0, 0, 0, 0.15) 0px 12px 30px;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    .sub-header{
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .sub-header-6{
+        font-family: 'Noto Sans', sans-serif;
+        margin-right: 5px;
+        font-weight: 500;
+        // font-size: 18px;
+    } 
     .img-wrapper {
         // width: 70%;
         // height: 300px;
