@@ -21,7 +21,7 @@
             margin: auto auto 30px 30%!important;
         }
         .side-content{
-            margin: 40% auto auto auto;
+            margin: auto auto auto auto;
         }
     }
     @media screen and (max-width: 992px) {
@@ -41,10 +41,25 @@
 
     #me{
         width: 250px;
+        border-radius: 10px;
+        margin-bottom: 20px;
         // min-width: 200
     }
     .side-wrapper{
         background-color: rgb(0,74,112);
+    }
+    .nav-header{
+        color: white;
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    .nav-sub-header{
+        color:rgb(187, 187, 187);
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .nav-tab{
+        color: white;
+        padding: auto 0;
+        padding-left: 0px !important;
     }
     .main-wrapper {
         width: 80%;
