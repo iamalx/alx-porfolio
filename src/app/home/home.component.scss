@@ -28,6 +28,21 @@
         .side-content {
             margin: 20px auto;
         }
+        .side-wrapper{
+            float: top;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .me{
+            font-size: 20px!important;
+            // background-color: red;
+        }
+        .main-font{
+            margin: 10px auto!important; 
+        }
+        #experience-hd{
+            margin-bottom: 40px!important;
+        }
     }
     // .relative {
     //     position: relative
