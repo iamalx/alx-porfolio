@@ -2,13 +2,14 @@
 
    .flex-items{
     }
-    @media screen and (min-width: 991px) {
+    @media screen and (min-width: 992px) {
         .side-wrapper {
             height: 100vh;
-            min-width: 300px;
+            // min-width: 300px;
+            // width: 20%;
         }
         #me{
-            width: 40%;
+            width: 60%!important;
         }
         .page-wrapper{
             display: flex;
@@ -18,7 +19,7 @@
             width: calc(80% - 250px)!important;
         }
     }
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: 992px) {
         // .main-wrapper {
         //     width: 100%;
         //     margin: 20px auto;
@@ -31,9 +32,12 @@
     // .menu1 {
     //     position: flex;
     // }
+    .side-content{
+        margin: auto;
+    }
 
     #me{
-        width: 250px;;
+        width: 250px;
         // min-width: 200
     }
     .side-wrapper{
