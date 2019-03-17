@@ -6,7 +6,8 @@
         .side-wrapper {
             height: 100vh;
             // min-width: 300px;
-             width: 20%;
+            width: 20%;
+            position: fixed;
         }
         #me{
             width: 60%!important;
@@ -16,8 +17,11 @@
             // justify-content:  
         }
         .main-wrapper {
-            width: calc(80% - 250px)!important;
-            margin: 55px auto 30px 20%;
+             width: 60%!important;
+            margin: auto auto 30px 30%!important;
+        }
+        .side-content{
+            margin: 40% auto auto auto;
         }
     }
     @media screen and (max-width: 992px) {
@@ -33,16 +37,14 @@
     // .menu1 {
     //     position: flex;
     // }
-    .side-content{
-        margin: auto;
-    }
+    
 
     #me{
         width: 250px;
         // min-width: 200
     }
     .side-wrapper{
-    
+        background-color: rgb(0,74,112);
     }
     .main-wrapper {
         width: 80%;
@@ -94,8 +96,12 @@
         justify-content: space-between;
     }
     .contact-button{
+        background-color: rgb(0,74,112);
         border-radius: 50%;
         margin-right: 15px; 
+    }
+    .icon{
+        color: white;
     }
     .resume{
         // margin: 10px 0px 18px 0px;
