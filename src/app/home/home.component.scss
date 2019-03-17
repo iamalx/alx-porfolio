@@ -25,11 +25,9 @@
         }
     }
     @media screen and (max-width: 992px) {
-        // .main-wrapper {
-        //     width: 100%;
-        //     margin: 20px auto;
-        //     background-color: red;
-        // }
+        .side-content {
+            margin: 20px auto;
+        }
     }
     // .relative {
     //     position: relative
@@ -38,7 +36,9 @@
     //     position: flex;
     // }
     
-
+    .nav-button{
+        // background-color: white;
+    }
     #me{
         width: 250px;
         border-radius: 10px;
@@ -57,9 +57,10 @@
         font-family: 'Noto Sans', sans-serif;
     }
     .nav-tab{
-        color: white;
+        color: white!important;
         padding: auto 0;
         padding-left: 0px !important;
+
     }
     .main-wrapper {
         width: 80%;
