@@ -31,6 +31,10 @@
         .side-wrapper{
             float: top;
         }
+        .main-wrapper {
+            width: 80%;
+            margin: 55px auto 30px auto;
+        }
     }
     @media screen and (max-width: 767px) {
         .me{
@@ -42,6 +46,26 @@
         }
         #experience-hd{
             margin-bottom: 40px!important;
+        }
+        .main-wrapper {
+            width: 100%;
+            // margin: ;
+        }
+        .about{
+            width: 83%;
+            margin: 30px auto 30px auto; 
+        }
+        .projects{
+            width: 95%;
+            margin: auto;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        .main-font{
+            font-size: 40px!important;
+        }
+        .me{
+            font-size: 15px!important;
         }
     }
     // .relative {
@@ -76,10 +100,6 @@
         padding: auto 0;
         padding-left: 0px !important;
 
-    }
-    .main-wrapper {
-        width: 80%;
-        margin: 55px auto 30px auto;
     }
     .main-font{
         font-family: 'Ubuntu Mono', monospace;
