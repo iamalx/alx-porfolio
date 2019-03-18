@@ -1,11 +1,18 @@
+    @media screen and (max-width: 1024px) {
+        .img-wrapper {
+            width: 50%!important;
+        }
+        .img-wrapper-reboot {
+            width: 60%!important;
 
-
-   .flex-items{
+        }
+        .img-wrapper2{
+            width: 90%!important;
+        }
     }
     @media screen and (min-width: 992px) {
         .side-wrapper {
             height: 100vh;
-            // min-width: 300px;
             width: 20%;
             position: fixed;
         }
@@ -14,10 +21,9 @@
         }
         .page-wrapper{
             display: flex;
-            // justify-content:  
         }
         .main-wrapper {
-             width: 60%!important;
+            width: 60%!important;
             margin: auto auto 30px 30%!important;
         }
         .side-content{
@@ -60,13 +66,28 @@
             width: 95%;
             margin: auto;
         }
+        .img-wrapper{
+            width: 80%!important;
+        }
+        .img-wrapper-reboot {
+            width: 80%!important;
+        }
+        .img-wrapper2{
+            width: 100%!important;
+        }
     }
     @media screen and (max-width: 375px) {
         .main-font{
             font-size: 40px!important;
         }
         .me{
-            font-size: 15px!important;
+            font-size: 18px!important;
+        }
+        .title-hd{
+            font-size: 2.0em!important;
+        }
+        .sub-header{
+            font-size: 1.2em!important;
         }
     }
     @media screen and (max-width: 356px) {
@@ -77,21 +98,10 @@
             margin-right: 2px!important; 
         }
     }
-    // .relative {
-    //     position: relative
-    // }
-    // .menu1 {
-    //     position: flex;
-    // }
-    
-    .nav-button{
-        // background-color: white;
-    }
     #me{
         width: 250px;
         border-radius: 10px;
         margin-bottom: 20px;
-        // min-width: 200
     }
     .side-wrapper{
         background-color: rgb(0,74,112);
@@ -108,7 +118,6 @@
         color: white!important;
         padding: auto 0;
         padding-left: 0px !important;
-
     }
     .main-font{
         font-family: 'Ubuntu Mono', monospace;
@@ -123,14 +132,9 @@
         font-size: 1.4rem;
         text-shadow: rgba(0, 0, 0, 0.15) 0px 12px 30px;
     }
-    // h1, h4{
-    //     text-shadow: rgba(0, 0, 0, 0.15) 0px 12px 30px;
-    // }
     .projects {
-        // width: 80%;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 120px;
         border-radius: 10px;
-        // margin: auto;
         position: relative;
         padding: 20px 30px;
     }
@@ -151,7 +155,6 @@
         font-family: 'Noto Sans', sans-serif;
         margin-right: 5px;
         font-weight: 500;
-        // font-size: 18px;
     }
     .contact-wrapper{
         display: flex;
@@ -166,7 +169,6 @@
         color: white;
     }
     .resume{
-        // margin: 10px 0px 18px 0px;
         border-radius: 22px;
         margin-right: 15px;
     } 
@@ -194,9 +196,6 @@
     .footnote{
         background-color: transparent;
     }
-    .img{
-        // width: 100%;
-    }
     .h5-section{
         display: flex;
     }
@@ -205,7 +204,6 @@
         margin: 20px auto 85px auto;
         position: relative;
         font-size: 1rem;
-        // margin-bottom: 85px;
     }
     .sect{
         margin-top: 25px;
