@@ -12,22 +12,22 @@
             <h5 class='nav-sub-header'>Always keep learning!</h5>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 flex-sm-column">
               <li class="nav-item ">
-                <a class="nav-link nav-tab" href="#">About me</a>
+                <a class="nav-link nav-tab" href="#about-me">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-tab"  href="#" >Contact</a>
+                <a class="nav-link nav-tab"  href="#contact" >Contact</a>
               </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-tab" href="#">Vardas Solutions</a>
+                    <a class="nav-link nav-tab" href='#vardas'>Vardas Solutions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-tab" href="#">Reboot</a>
+                    <a class="nav-link nav-tab" href="#reboot">Reboot</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-tab" href="#">Google Maps App</a>
+                    <a class="nav-link nav-tab" href="#google">Google Maps App</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-tab" href="#">Fintech Web Wpp</a>
+                    <a class="nav-link nav-tab" href="#fintech">Fintech Web Wpp</a>
                 </li>
             </ul>
           </div>
@@ -36,12 +36,12 @@
   </nav>
 
   <main class='main-wrapper'>
-    <div class='about'>
+    <div class='about' id='about-me'>
       <h1 class='main-font'>Hello World!</h1>
       <p class='me'>I'm Alex Reyes, a software developer specializing in web apps and mobile application with the best UX users can get. In addition, I have a business degree from SDSU,
           and I'm passionate about innovation and tech startups. I always try to keep my self busy by reading about tech and business or improving my code. Connect with me on LinkedIn or
           send me a message and say hi!</p>
-      <div class='contact-wrapper'>
+      <div class='contact-wrapper' id='contact'>
         <a class="resume btn btn-info" href='#' [routerLink]="['/resume']" routerLinkActive="active"><i class="fas fa-file-pdf"></i> Resume</a>
         <!-- <object width="400" height="500" type="application/pdf" data="../assets/resume-site-sm.pdf">
           <p>Insert your error message here, if the PDF cannot be displayed.</p>
@@ -53,10 +53,10 @@
         </div>
       </div>
     </div>
-    <div class='projects'>
+    <div class='projects' >
         <h3 id='experience-hd'>Experience/Projects</h3>
-        <div class='vardas sect'>
-          <h1 class='title-hd'>Head of Product Development</h1>
+        <div class='vardas sect' id='vardas'>
+          <h1 class='title-hd'>Operations Manager</h1>
           <p>Nov 2018 – Present -<a href='https://zone.health'>Vardas Solutions</a></p>
           <h4 class='sub-header'>Examples:</h4>
           <div id="carouselExampleControls" class="carousel slide img-shadow img-wrapper" data-ride="carousel">
@@ -103,8 +103,8 @@
                 <p class='content1'>Work in process. Will keep you update ;)</p>
             </div>  
         </div>
-        <div class='reboot sect'>
-          <h1 class='title-hd'>Ionic Rebbot App</h1>
+        <div class='reboot sect' id='reboot'>
+          <h1 class='title-hd'>Reboot App</h1>
           <p>Ocotober, 2018 - Rebot Org</p>
           <h4 class='sub-header'>Examples:</h4>
           <div id="carouselExampleControls" class="carousel slide img-shadow img-wrapper-reboot" data-ride="carousel">
@@ -157,8 +157,8 @@
               <a class='content1'href="https://finstockapp.herokuapp.com">Site</a>
             </div>   
         </div>
-        <div class='google sect'>
-          <h1 class='title-hd'>Ionic Gloogle Maps API</h1>
+        <div class='google sect' id='google'>
+          <h1 class='title-hd'>Gloogle Maps App</h1>
           <p>August, 2018</p>
           <h4 class='sub-header'>Examples:</h4>
           <div id="carouselExampleControls" class="carousel slide img-shadow img-wrapper" data-ride="carousel">
@@ -209,8 +209,8 @@
               <a class='content1'href="https://finstockapp.herokuapp.com">Site</a>
             </div>  
         </div>
-        <div class='fintech sect'>
-          <h1 class='title-hd'>Angular Stock API Webapp</h1>
+        <div class='fintech sect' id='fintech'>
+          <h1 class='title-hd'>Fintech Web App</h1>
           <p>June, 2018 </p>
           <h4 class='sub-header'>Examples:</h4>
           <div id="carouselExampleControls" class="carousel slide img-shadow img-wrapper2" data-ride="carousel">
