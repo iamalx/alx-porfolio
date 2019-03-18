@@ -23,6 +23,9 @@
         .side-content{
             margin: auto auto auto auto;
         }
+        .title-hd{
+            font-size: 2.5em!important;
+        }
     }
     @media screen and (max-width: 992px) {
         .side-content {
@@ -39,7 +42,6 @@
     @media screen and (max-width: 767px) {
         .me{
             font-size: 20px!important;
-            // background-color: red;
         }
         .main-font{
             margin: 10px auto!important; 
@@ -49,7 +51,6 @@
         }
         .main-wrapper {
             width: 100%;
-            // margin: ;
         }
         .about{
             width: 83%;
@@ -66,6 +67,14 @@
         }
         .me{
             font-size: 15px!important;
+        }
+    }
+    @media screen and (max-width: 356px) {
+        .contact-button{
+            margin: 1px!important;
+        }
+        .resume{
+            margin-right: 2px!important; 
         }
     }
     // .relative {
@@ -132,9 +141,11 @@
     .title-hd{
         text-shadow: rgba(0, 0, 0, 0.15) 0px 12px 30px;
         font-family: 'Ubuntu Mono', monospace;
+        font-size: 2.1em;
     }
     .sub-header{
         font-family: 'Noto Sans', sans-serif;
+        font-size: 1.5em;
     }
     .sub-header-6{
         font-family: 'Noto Sans', sans-serif;
