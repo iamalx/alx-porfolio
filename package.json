@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "web.js",
   "engines": {
-    "node": ">=4"
+    "node": "10.15.2",
+    "npm": "6.3.0"
   },
   "scripts": {
     "ng": "ng",
