@@ -8,7 +8,7 @@ var bodyParser = require("body-parser");
     var app = express();
     app.use(bodyParser.json());
 
-    var distDir = "/dist/";
+    var distDir = __dirname + "/dist/";
     app.use(express.static(distDir));
 // // Create a database variable outside of the database connection callback to reuse the connection pool in your app.
 // var db;
@@ -25,6 +25,7 @@ var bodyParser = require("body-parser");
 //     console.log("Database connection ready");
 
 //     // Initialize the app.
+
 console.log('#3')
     var server = app.listen(process.env.PORT || 8000, function () {
         var port = server.address().port;
