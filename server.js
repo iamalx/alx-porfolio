@@ -13,7 +13,7 @@ var bodyParser = require("body-parser");
     app.use( express.static(distDir));
     app.get('*', function(req,res){
         console.log(req,res,"#2")
-        res.sendfile("/dist/");
+        res.sendfile(distDir);
     });
     // app.use('/static', express.static(path.join(__dirname + 'dist')));
 
