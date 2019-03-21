@@ -10,7 +10,9 @@ var bodyParser = require("body-parser");
 
     var distDir = __dirname + "/dist/";
     var fallBack = __dirname + "*dist/"
-    app.use('home', express.static(distDir));
+    // app.use( express.static(distDir));
+    app.use('/static', express.static(path.join(__dirname + 'dist')));
+
 // // Create a database variable outside of the database connection callback to reuse the connection pool in your app.
 // var db;
 
