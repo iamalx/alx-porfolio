@@ -1,6 +1,6 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-var mongodb = require("mongodb");
+// var mongodb = require("mongodb");
 // var ObjectID = mongodb.ObjectID;
 
 // var CONTACTS_COLLECTION = "contacts";
@@ -26,7 +26,7 @@ var mongodb = require("mongodb");
 
 //     // Initialize the app.
 console.log('#3')
-    var server = app.listen(process.env.PORT || 8081, function () {
+    var server = app.listen(process.env.PORT || 8000, function () {
         var port = server.address().port;
         console.log("App now running on port", port);
     });

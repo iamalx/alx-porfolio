@@ -1,14 +1,14 @@
 {
   "name": "my-porfolio",
   "version": "0.0.0",
-  "main": "web.js",
+  "main": "server.js",
   "engines": {
     "node": "10.15.2",
     "npm": "6.3.0"
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
