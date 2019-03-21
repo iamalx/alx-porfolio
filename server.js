@@ -25,6 +25,7 @@ var mongodb = require("mongodb");
 //     console.log("Database connection ready");
 
 //     // Initialize the app.
+console.log('#3')
     var server = app.listen(process.env.PORT || 8081, function () {
         var port = server.address().port;
         console.log("App now running on port", port);
