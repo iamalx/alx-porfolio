@@ -75,6 +75,11 @@
             width: 100%!important;
         }
     }
+    @media screen and (max-width: 415px) {
+        #me{
+            width: 150px!important;
+        }
+    }
     @media screen and (max-width: 375px) {
         .main-font{
             font-size: 40px!important;
@@ -96,6 +101,9 @@
         .resume{
             margin-right: 2px!important; 
         }
+    }
+    .note{
+        font-size: .8rem;
     }
     #me{
         width: 250px;
