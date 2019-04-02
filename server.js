@@ -9,10 +9,8 @@ var bodyParser = require("body-parser");
     app.use(bodyParser.json());
 
     var distDir = __dirname + "/dist/";
-    var fallBack = __dirname + "*dist/"
-    app.use( express.static(distDir));
+    app.use(express.static(distDir));
     app.get('*', function(req,res){
-        console.log(req,res,"#2")
         res.sendfile(distDir);
     });
     // app.use('/static', express.static(path.join(__dirname + 'dist')));
@@ -33,7 +31,6 @@ var bodyParser = require("body-parser");
 
 //     // Initialize the app.
 
-console.log('#3')
     var server = app.listen(process.env.PORT || 8000, function () {
         var port = server.address().port;
         console.log("App now running on port", port);

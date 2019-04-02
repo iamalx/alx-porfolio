@@ -12,22 +12,22 @@
             <h5 class='nav-sub-header'>Always keep learning!</h5>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 flex-sm-column">
               <li class="nav-item ">
-                <a class="nav-link nav-tab" href="#about-me">About me</a>
+                <a class="nav-link nav-tab" (click)='goto("about-me")'>About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-tab"  href="#contact" >Contact</a>
+                <a class="nav-link nav-tab" (click)='goto("contact")'>Contact</a>
               </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-tab" href='#vardas'>Vardas Solutions</a>
+                    <a class="nav-link nav-tab" (click)='goto("vardas")'>Vardas Solutions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-tab" href="#reboot">Reboot</a>
+                    <a class="nav-link nav-tab" (click)='goto("reboot")' >Reboot</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-tab" href="#google">Google Maps App</a>
+                    <a class="nav-link nav-tab" (click)='goto("google")'>Google Maps App</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-tab" href="#fintech">Fintech Web Wpp</a>
+                    <a class="nav-link nav-tab" (click)='goto("fintech")'>Fintech Web App</a>
                 </li>
             </ul>
           </div>
@@ -38,11 +38,11 @@
   <main class='main-wrapper'>
     <div class='about' id='about-me'>
       <h1 class='main-font'>Hello World!</h1>
-      <p class='me'>I'm Alex Reyes, a software developer specializing in web apps and mobile application with the best UX users can get. In addition, I have a business degree from SDSU,
+      <p class='me'>I'm Alex Reyes, a software developer specializing in web and mobile applications with the best UX users can get. In addition, I have a business degree,
           and I'm passionate about innovation and tech startups. I always try to keep my self busy by reading about tech and business or improving my code. Connect with me on LinkedIn or
           send me a message and say hi!</p>
       <div class='contact-wrapper' id='contact'>
-        <a class="resume btn btn-info" href='#' [routerLink]="['/resume']" routerLinkActive="active"><i class="fas fa-file-pdf"></i> Resume</a>
+        <a class="resume btn btn-info"  [routerLink]="['/resume']" routerLinkActive="active"><i class="fas fa-file-pdf"></i> Resume</a>
         <!-- <object width="400" height="500" type="application/pdf" data="../assets/resume-site-sm.pdf">
           <p>Insert your error message here, if the PDF cannot be displayed.</p>
         </object> -->
@@ -104,7 +104,7 @@
         </div>
         <div class='reboot sect' id='reboot'>
           <h1 class='title-hd'>Reboot App</h1>
-          <p>Ocotober, 2018 - Rebot Org</p>
+          <p>Ocotober, 2018 - Reboot Org</p>
           <h4 class='sub-header'>Examples:</h4>
           <div id="carouselExampleControls" class="carousel slide img-shadow img-wrapper-reboot" data-ride="carousel">
             <div class="carousel-inner">
@@ -158,7 +158,7 @@
           <p class='note'>*Open in mobile view: Ctrl+Shift+J or right click and select "inspect"</p>    
         </div>
         <div class='google sect' id='google'>
-          <h1 class='title-hd'>Gloogle Maps App</h1>
+          <h1 class='title-hd'>Google Maps App</h1>
           <p>August, 2018</p>
           <h4 class='sub-header'>Examples:</h4>
           <div id="carouselExampleControls" class="carousel slide img-shadow img-wrapper" data-ride="carousel">
